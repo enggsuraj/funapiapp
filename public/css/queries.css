@@ -1,0 +1,13 @@
+/* WIDTH:  880 to 768px */
+@media only screen and (max-width: 880px) {
+  section {
+    width: 50%;
+  }
+}
+
+/* WIDTH: 481 to 767 */
+@media only screen and (max-width: 480px) {
+  section {
+    width: 90%;
+  }
+}
