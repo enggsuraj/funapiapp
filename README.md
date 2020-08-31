@@ -1,6 +1,6 @@
 # Fun API App
 
-Fun API App is simple programming jokes displaying application, programmed using fetch api and vanilla javascript.
+Fun API App is a simple programming humors display application using sv443 Joke API and vanilla Javascript.
 
 Link: https://funapiapp-blogtheorem.herokuapp.com/
 
