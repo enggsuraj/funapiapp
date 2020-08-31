@@ -1,6 +1,8 @@
-# Fun API APpp
+# Fun API App
 
 Fun API App is simple programming jokes displaying application, programmed using fetch api and vanilla javascript.
+
+![Fun API App](https://user-images.githubusercontent.com/6918020/91712509-7f886d80-eba5-11ea-9175-21b6607908f0.png)
 
 Link: https://funapiapp-blogtheorem.herokuapp.com/
 
@@ -26,4 +28,4 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Authors
 
-- **Suraj Gehlot** - _Initial work_ - [enggsuraj](https://github.com/enggsuraj)
+- **Suraj Gehlot** - [enggsuraj](https://github.com/enggsuraj)
