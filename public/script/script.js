@@ -13,7 +13,7 @@ let updateContentOther = (setup, delivery) => {
 };
 
 // READ DATA FROM API
-document.querySelector(".button").addEventListener("click", () => {
+document.querySelector(".button").addEventListener("click", () => {  
   fetch(url)
     .then((response) => {
       return response.json();
