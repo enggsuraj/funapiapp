@@ -4,6 +4,7 @@
   "description": "A Programming Jokes displaying fun application",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.1.0",
     "helmet-csp": "^3.1.0",

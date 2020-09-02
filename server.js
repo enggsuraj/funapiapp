@@ -5,7 +5,9 @@ const helmet = require("helmet");
 var app = express();
 app.use(helmet());
 app.disable("x-powered-by");
+require('dotenv').config()
 
+//CSP
 app.use((req, res, next) => {
   res.set({
     "Access-Control-Allow-Origin": "*",

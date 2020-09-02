@@ -48,6 +48,7 @@ footer ul {
   list-style-type: none;
   font-size: 30px;
   padding: 0 6px;
+  margin-bottom: 5px;
 }
 
 footer ul li a {
