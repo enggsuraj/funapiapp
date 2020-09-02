@@ -6,18 +6,16 @@ var app = express();
 app.use(helmet());
 app.disable("x-powered-by");
 
-let sources = {
-  "default-src": ["'self'"],
-  "script-src-elem": ["'self'", "unsafe-inline", "unsafe-eval"],
-  "connect-src": ["'self'", "https://sv443.net"],
-};
-
-let csp = Object.keys(sources).map(function (key) {
-  return `${key} ${sources[key].join(" ")};`;
-});
-
-app.use(function (req, res, next) {
-  res.setHeader("Content-Security-Policy", csp.join(" "));
+app.use((req, res, next) => {
+  res.set({
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers":
+      "Origin, X-Requested-With, Content-Type, Accept",
+    "Access-Control-Allow-Methods": "GET, POST, PATCH, DELETE, OPTIONS",
+    "Content-Security-Policy": "default-src *",
+    "X-Content-Security-Policy": "default-src *",
+    "X-WebKit-CSP": "default-src *",
+  });
   next();
 });
 
