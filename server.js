@@ -8,12 +8,7 @@ app.disable("x-powered-by");
 
 let sources = {
   "default-src": ["'self'"],
-  "script-src-elem": [
-    "'self'",
-    "https://unpkg.com/ionicons@5.1.2/dist/ionicons.js",
-    "unsafe-inline",
-    "unsafe-eval",
-  ],
+  "script-src-elem": ["'self'", "unsafe-inline", "unsafe-eval"],
   "connect-src": ["'self'", "https://sv443.net"],
 };
 

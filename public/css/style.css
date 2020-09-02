@@ -55,16 +55,3 @@ footer ul li a {
   font-size: 25px;
   padding: 0 6px;
 }
-
-footer li :hover,
-footer li :active {
-  color: rgba(0, 0, 0, 0.938);
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  -o-transition: transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s; /* Animation */
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
